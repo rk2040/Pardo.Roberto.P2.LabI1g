@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1656278561 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1656292672 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\linkedlist.h
+
+1656715847 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<time.h>
+	"LinkedList.h"
+	"peliculas.h"
+	"Controller.h"
+	"menu.h"
+	"misFunciones.h"
+
+1656715943 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\peliculas.h
+
+1656715300 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\controller.h
+
+1656715889 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\menu.h
+
+1656281597 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\misfunciones.h
+
+1656715501 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"misFunciones.h"
+
+1656716011 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"peliculas.h"
+	"Controller.h"
+	"parser.h"
+	"menu.h"
+	"misFunciones.h"
+
+1656714572 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\parser.h
+
+1656285462 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\misfuncines.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"misFunciones.h"
+
+1656715955 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"peliculas.h"
+	"parser.h"
+
+1656716105 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\peliculas.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"LinkedList.h"
+	"peliculas.h"
+
