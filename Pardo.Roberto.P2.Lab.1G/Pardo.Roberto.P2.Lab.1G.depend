@@ -7,7 +7,7 @@
 
 1656292672 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\linkedlist.h
 
-1656715847 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\main.c
+1656719353 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\main.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -18,21 +18,21 @@
 	"menu.h"
 	"misFunciones.h"
 
-1656715943 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\peliculas.h
+1656719235 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\peliculas.h
 
 1656715300 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\controller.h
 
-1656715889 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\menu.h
+1656719244 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\menu.h
 
 1656281597 d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\misfunciones.h
 
-1656715501 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\menu.c
+1656719832 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\menu.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
 	"misFunciones.h"
 
-1656716011 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\controller.c
+1656720118 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\controller.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -59,11 +59,12 @@
 	"peliculas.h"
 	"parser.h"
 
-1656716105 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\peliculas.c
+1656719218 source:d:\utn\2022 1er cuatri\lab1\pardo.roberto.p2.lab.1g\peliculas.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
 	<string.h>
 	"LinkedList.h"
 	"peliculas.h"
+	"menu.h"
 

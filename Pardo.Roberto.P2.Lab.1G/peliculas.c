@@ -5,6 +5,7 @@
 
 #include "LinkedList.h"
 #include "peliculas.h"
+#include "menu.h"
 
 
 // Constructor ----------------------------------------------------------------------------------------------------
@@ -358,6 +359,23 @@ int filtrarGeneroThriller(void* pelicula)
     return todoOk;
 }
 
+int filtrarGeneroWestern(void* pelicula)
+{
+    int todoOk = 0;
+
+    eMovie* aux = NULL;
+
+    if(pelicula != NULL)
+    {
+        aux = (eMovie*) pelicula;
+
+        if( stricmp(aux->genero, "Western") == 0 )
+        {
+            todoOk = 1;
+        }
+    }
+    return todoOk;
+}
 
 // Funciones para usar con sort() ----------------------------------------------------------------------------------
 int ordenGeneroDuracion(void* pelicula1, void* pelicula2)

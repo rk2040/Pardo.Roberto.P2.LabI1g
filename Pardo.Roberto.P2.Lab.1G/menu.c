@@ -12,23 +12,22 @@ int menu(int*pOpcionMenu)
     {
 
         system("cls");
-        do
-        {
-        	printf("-------------------------------------\n");
-			printf("     *** Menu de Peliculas ***       \n");
-			printf("-------------------------------------\n");
-            printf(" 1 Cargar los datos de las peliculas \n");
-            printf(" 2 Mostrar lista de peliculas \n");
-            printf(" 3 Asignar tiempo a las peliculas \n");
-            printf(" 4 Filtrar peliculas por genero \n");
-            printf(" 5 Mostrar lista ordenada por Genero y duracion (orden descendente) \n");
-            printf(" 6 Guardar lista de peliculas \n");
-            printf(" 7 Salir\n");
 
-            validarEntero(&opcion,"\nIngrese la opcion deseada\n","Error, opcion invalida\n",0,8,1);
+        printf("-------------------------------------\n");
+        printf("     *** Menu de Peliculas ***       \n");
+        printf("-------------------------------------\n");
+        printf(" 1 Cargar los datos de las peliculas \n");
+        printf(" 2 Mostrar lista de peliculas \n");
+        printf(" 3 Asignar tiempo a las peliculas \n");
+        printf(" 4 Filtrar peliculas por genero \n");
+        printf(" 5 Mostrar lista ordenada por Genero y duracion (orden descendente) \n");
+        printf(" 6 Guardar lista de peliculas \n");
+        printf(" 7 Salir\n");
 
-            error = 0;
-        }while(opcion<1 || opcion>8);
+        printf("Ingrese la opcion deseada\n");
+        fflush(stdin);
+        scanf("%d", &opcion);
+
         *pOpcionMenu = opcion;
     }
     return error;
@@ -45,25 +44,24 @@ int menuFiltroGenero(int*pOpcion)
     {
 
         system("cls");
-        do
-        {
-        	printf("-------------------------------------\n");
-			printf("    *** Filtrado por genero ***      \n");
-			printf("-------------------------------------\n");
-            printf(" 1 Action\n");
-            printf(" 2 Adventure\n");
-            printf(" 3 Animation\n");
-            printf(" 4 Comedy\n");
-            printf(" 5 Documentary\n");
-            printf(" 6 Drama\n");
-            printf(" 7 Horror\n");
-            printf(" 8 Musical\n");
-            printf(" 9 Thriller\n");
 
-            validarEntero(&opcion,"\nIngrese la opcion deseada\n","Error, opcion invalida\n",0,9,1);
+        printf("-------------------------------------\n");
+        printf("    *** Filtrado por genero ***      \n");
+        printf("-------------------------------------\n");
+        printf(" 1 Action\n");
+        printf(" 2 Adventure\n");
+        printf(" 3 Animation\n");
+        printf(" 4 Comedy\n");
+        printf(" 5 Documentary\n");
+        printf(" 6 Drama\n");
+        printf(" 7 Horror\n");
+        printf(" 8 Musical\n");
+        printf(" 9 Thriller\n");
+        printf("10 Western\n");
 
-            error = 0;
-        }while(opcion<1 || opcion>9);
+        printf("Ingrese la opcion deseada\n");
+        fflush(stdin);
+        scanf("%d", &opcion);
         *pOpcion = opcion;
     }
     return error;

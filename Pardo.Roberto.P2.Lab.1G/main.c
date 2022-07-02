@@ -97,6 +97,7 @@ int main()
             	salir = opcionConfirmar("Seguro que quiere salir? s/n ", "Error, vuelva a intentarlo. Salir? s/n ");
             	break;
             default:
+                printf("Opcion invalida. Vuelva a intentarlo\n");
             	break;
         }
         system("pause");

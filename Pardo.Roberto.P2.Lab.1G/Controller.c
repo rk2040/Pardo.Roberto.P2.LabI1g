@@ -197,9 +197,15 @@ int controller_filtrarPorGenero(LinkedList* pArrayList)
     case 9:
         pArrayList = ll_filter(pArrayList, filtrarGeneroThriller);
         break;
+    case 10:
+        pArrayList = ll_filter(pArrayList, filtrarGeneroWestern);
+        break;
+    default:
+        printf("Opcion invalida. Vuelva a intentarlo\n");
+        break;
     }
 
-    if ( pArrayList != NULL  )
+    if ( pArrayList != NULL  && opcion > 0 && opcion <= 10)
     {
         controller_ListPeliculas(pArrayList);
 
@@ -213,6 +219,7 @@ int controller_filtrarPorGenero(LinkedList* pArrayList)
     }
     return todoOk;
 }
+
 
 int controller_sortPeliculas(LinkedList* pArrayList)
 {

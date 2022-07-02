@@ -46,6 +46,7 @@ int mostrarPeliculaLinea(eMovie* pelicula);
 int asignarDuracion(void* pelicula);
 
 // Funciones para usar con filter() ----------------------------------------------------------------------------------
+
 int filtrarGeneroAction(void* pelicula);
 
 int filtrarGeneroAdventure(void* pelicula);
@@ -63,6 +64,8 @@ int filtrarGeneroHorror(void* pelicula);
 int filtrarGeneroMusical(void* pelicula);
 
 int filtrarGeneroThriller(void* pelicula);
+
+int filtrarGeneroWestern(void* pelicula);
 
 
 // Funciones para usar con sort() ----------------------------------------------------------------------------------
